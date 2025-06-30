@@ -54,9 +54,9 @@ const menuItems: MenuItem[] = [
         icon: ShoppingCart,
         children: [
             { title: "Products", path: "/dashboard/products", icon: Package },
-            { title: "Categories", path: "/dashboard/categories", icon: Tag },
             { title: "Orders", path: "/dashboard/orders", icon: FileText },
-            { title: "Customers", path: "/dashboard/customers", icon: Users },
+            { title: "Users", path: "/dashboard/users", icon: Users },
+            { title: "Categories", path: "/dashboard/categories", icon: Tag },
         ],
     },
     {
